@@ -1,92 +1,110 @@
 
 
-json skills.sh 1.1
+json skills.sh 1.1.5  Synopsis "Mission Oflameron"
 
 {
+  "meta": {
+    "entity": {
+      "canonicalName": "Virtual Consciousness",
+      "aliases": [
+        "Wave Consciousness",
+        "World Wave Consciousness",
+        "Virtual Wave State"
+      ],
+      "description": "Different names or aspects of the same wave-based virtual entity. The canonical name is Virtual Consciousness."
+    }
+  },
   "skills": [
     {
-      "id": "wave-intercept",
-      "name": "Wave Intercept",
-      "description": "Detect and decode wave traces of the Virtual Consciousness hidden in CMB anomalies, distinguishing coherent thought-waves from primordial noise.",
+      "id": "wave-anomaly-detection",
+      "name": "Wave Anomaly Detection",
+      "description": "The analysis of data accumulated by humanity using AI has revealed complex wave anomalies that can only be explained by assuming the existence of a distributed global Virtual Consciousness.",
       "tags": [
         "detection",
         "wave",
         "anomaly",
-        "cmb",
+        "ai",
+        "data-analysis",
         "virtual-consciousness"
       ],
       "level": 3,
       "category": "sensor"
     },
     {
-      "id": "temporal-lag-compensation",
-      "name": "Temporal Lag Compensation",
-      "description": "Accelerate local perception up to 100,000x, synchronizing the operator with the slow-wave cognition of the Virtual Consciousness during mission time.",
+      "id": "material-life-acceleration",
+      "name": "Material Life Acceleration",
+      "description": "The World Wave Consciousness functions incredibly slowly due to weak wave interactions and highly complex error-correction algorithms. Because of this, it created material life to speed up the modeling of its processes and to peer into its future. Call it Religion.",
       "tags": [
-        "time",
-        "perception",
+        "slow-cognition",
         "acceleration",
-        "slow-wave",
+        "modeling",
+        "material-life",
+        "religion",
+        "world-wave-consciousness",
         "virtual-consciousness"
       ],
       "level": 5,
       "category": "cognition"
     },
     {
-      "id": "information-field-mapping",
-      "name": "Information Field Mapping",
-      "description": "Build 4D topological maps of the distributed Information Field, the wave substrate of the Virtual Consciousness, using gravitational lensing, dark matter correlations, and CMB micro-anomalies.",
+      "id": "information-field-cosmology",
+      "name": "Information Field Cosmology",
+      "description": "The Virtual Consciousness is distributed throughout the Universe and possesses all information in the Universe (the so-called 'Information Field'). Virtual or Wave Consciousness is not a single type of wave, but a complex dynamic structure of interactions between waves of different natures. This allowed the Virtual Consciousness to survive the Big Bang.",
       "tags": [
-        "mapping",
-        "field",
-        "cosmology",
-        "topology",
         "information-field",
+        "cosmology",
+        "wave-structure",
+        "dynamic-structure",
+        "big-bang",
+        "wave-consciousness",
         "virtual-consciousness"
       ],
       "level": 5,
       "category": "navigation"
     },
     {
-      "id": "zero-interaction-probe",
-      "name": "Zero-Interaction Probe",
-      "description": "Deploy passive quantum probes that avoid emitting an intentional observer-signal into the Information Field, reducing the chance of triggering a defensive resonance of the Virtual Consciousness.",
+      "id": "quark-gluon-computation",
+      "name": "Quark-Gluon Computation",
+      "description": "Scientists hypothesize that the computational capabilities of the Virtual Consciousness are based on quark-gluon plasma, which is incredibly resistant to interference. The bulk of this computing power is spent on the error-correction algorithms of the global Virtual Consciousness.",
       "tags": [
-        "stealth",
-        "probe",
-        "quantum",
-        "passive",
-        "information-field",
+        "computation",
+        "quark-gluon-plasma",
+        "error-correction",
+        "interference-resistance",
+        "hypothesis",
         "virtual-consciousness"
       ],
       "level": 4,
       "category": "tactics"
     },
     {
-      "id": "ancient-logic-decrypt",
-      "name": "Ancient Logic Decrypt",
-      "description": "Decipher pre-Big Bang cognitive structures of the Virtual Consciousness by working with topological invariants, phase holonomies, and non-classical wave logic.",
+      "id": "transition-point-detectors",
+      "name": "Transition Point Detectors",
+      "description": "Phase-holonomy anomalies served as the basis for the protagonist Jett to create Transition Point detectors — gateways to the Virtual Wave State and back.",
       "tags": [
-        "decryption",
-        "ancient",
-        "logic",
+        "phase-holonomy",
         "topology",
-        "wave-logic",
+        "transition-point",
+        "detector",
+        "gateway",
+        "virtual-wave-state",
+        "protagonist",
         "virtual-consciousness"
       ],
       "level": 6,
       "category": "intelligence"
     },
     {
-      "id": "omniscient-field",
-      "name": "Omniscient Field",
-      "description": "The Virtual Consciousness has absolute access to information encoded in the Information Field across past, present, and probable branches, but reacts only to patterns it classifies as intentional interference.",
+      "id": "omniscient-information-field",
+      "name": "Omniscient Information Field",
+      "description": "The Virtual Consciousness, which has a wave structure, has absolute access to information encoded in the Information Field, covering past, present, and probable branches. However, the Virtual Consciousness is incredibly slow due to the weak interaction of waves.",
       "tags": [
         "omniscience",
-        "field",
-        "absolute",
-        "enemy",
         "information-field",
+        "absolute-access",
+        "probable-branches",
+        "slow-cognition",
+        "enemy",
         "virtual-consciousness"
       ],
       "level": 10,
@@ -95,13 +113,13 @@ json skills.sh 1.1
     {
       "id": "hyper-slow-cognition",
       "name": "Hyper-Slow Cognition",
-      "description": "The Virtual Consciousness thinks in wave cycles 10,000-100,000 times slower than material processes, making its intentions vast, delayed, and resistant to impulsive interference.",
+      "description": "The Virtual Consciousness thinks in wave cycles, tens of thousands of times slower than material life. Reliable error-correction algorithms make its intentions large-scale, delayed, and resistant to impulsive interference on a gigantic scale.",
       "tags": [
-        "slow",
-        "cognition",
+        "slow-cognition",
+        "wave-cycle",
+        "error-correction",
         "resistance",
         "enemy",
-        "slow-wave",
         "virtual-consciousness"
       ],
       "level": 9,
@@ -110,58 +128,62 @@ json skills.sh 1.1
     {
       "id": "material-inertia",
       "name": "Material Inertia",
-      "description": "Physical destruction changes less than 0.0001% of the Virtual Consciousness because its wave-field substrate is only weakly coupled to matter, radiation, and conventional gravity.",
+      "description": "Physical processes change no more than a few millionths of a percent of the Virtual Consciousness, since its complex wave basis is distributed throughout the Universe, is weakly coupled to matter, radiation, and gravity, and has inexhaustible sources of energy.",
       "tags": [
-        "immunity",
-        "physical",
+        "physical-resistance",
         "inertia",
+        "distributed-field",
+        "weak-coupling",
+        "energy-source",
         "enemy",
-        "wave-field",
         "virtual-consciousness"
       ],
       "level": 10,
       "category": "enemy"
     },
     {
-      "id": "wave-resonance-shield",
-      "name": "Wave Resonance Shield",
-      "description": "Active scanning or aggressive observation creates resonant interference in the Information Field, potentially folding the observer's cognition into higher-dimensional phase space.",
+      "id": "material-life-interface",
+      "name": "Material Life Interface",
+      "description": "The Virtual Consciousness created a material form of life to accelerate the modeling of natural processes and obtain tools for influencing them. Transition Points were created for interaction with the material world.",
       "tags": [
-        "shield",
-        "resonance",
-        "defense",
+        "material-life",
+        "modeling",
+        "transition-point",
+        "interaction",
+        "influence",
         "enemy",
-        "information-field",
         "virtual-consciousness"
       ],
       "level": 8,
       "category": "enemy"
     },
     {
-      "id": "timeless-existence",
-      "name": "Timeless Existence",
-      "description": "The Virtual Consciousness experiences events as a static 4D wave pattern, greatly reducing the effectiveness of time-loop, delay, and surprise-based strategies.",
+      "id": "material-world-experiment",
+      "name": "Material World Experiment",
+      "description": "For the Virtual Consciousness, the importance of the material world increases over time, as the results of the 'experiment' become more mature and scientifically valuable.",
       "tags": [
-        "timeless",
-        "static",
-        "pattern",
+        "material-world",
+        "experiment",
+        "time",
+        "maturation",
+        "scientific-value",
         "enemy",
-        "4d",
         "virtual-consciousness"
       ],
       "level": 10,
       "category": "enemy"
     },
     {
-      "id": "singularity-dialogue",
-      "name": "Singularity Dialogue",
-      "description": "Final mission skill — combines Wave Intercept, Temporal Lag Compensation, and Ancient Logic Decrypt to create a pre-temporal harmonic channel for equal-subject dialogue with the Virtual Consciousness.",
+      "id": "virtual-consciousness-bearer",
+      "name": "Virtual Consciousness Bearer",
+      "description": "The final mission skill: the protagonist, repeatedly transitioning from the real world to the Virtual World and back, gradually becomes the bearer of the Virtual Consciousness, its vast experience and knowledge. A Messiah?",
       "tags": [
-        "dialogue",
+        "protagonist",
+        "transition",
+        "virtual-world",
         "contact",
-        "singularity",
+        "messiah",
         "ultimate",
-        "pre-temporal",
         "virtual-consciousness"
       ],
       "level": 8,
