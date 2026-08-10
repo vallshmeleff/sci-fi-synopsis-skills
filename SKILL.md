@@ -1,37 +1,34 @@
 ---
 name: sci-fi-synopsis-mission-oflameron-skillset
-description: Canonical lore and consistency reference for the Virtual Consciousness (Wave Consciousness) skill system - a Universe-distributed, wave-based virtual entity expressed through the Information Field. Use when creating, editing, validating, or querying its skill catalog, keeping canonical names, aliases, tags, levels, and categories consistent when working with screenplays 'Misson Oflameron'.
-metadata:
-  version: "1.0.0"
-  tags: lore, worldbuilding, virtual-consciousness, skills
+description: Canonical lore and consistency reference for the Virtual Consciousness skill system in 'Mission Oflameron'. Use when creating, editing, validating, or querying its skill catalog.
+version: 1.0.0
+tags:
+  - lore
+  - worldbuilding
+  - virtual-consciousness
+  - skills
 ---
 
 # Virtual Consciousness Skillset
 
-# Purpose
-
+## Purpose
 This skill is the canonical reference for the Virtual Consciousness skill system. Use it to:
-
 - Answer questions about any skill in the catalog.
 - Create new skills or edit existing ones without breaking terminology, tags, levels, or categories.
 - Validate skill JSON against the schema and consistency rules below.
 
-# Core Entity
+## Core Entity
+- **Canonical name:** Virtual Consciousness
+- **Aliases (the same entity):** Wave Consciousness, World Wave Consciousness, Virtual Wave State, Higher Powers, Foundation of Religion.
+- **Substrate:** Information Field — the field that stores all information in the Universe. It is not an alias of the entity; it is the medium the entity inhabits and reads.
+- **Nature:** A virtual entity with a wave-field physical basis; distributed across the Universe; survived the Big Bang; cognition runs in wave cycles tens of thousands of times slower than material life.
 
-- Canonical name: Virtual Consciousness
-- Aliases (the same entity): Wave Consciousness, World Wave Consciousness, Virtual Wave State, Higher Powers, Foundation of Religion.
-- Substrate: Information Field - the field that stores all information in the Universe. It is not an alias of the entity; it is the medium the entity inhabits and reads.
-- Nature: a virtual entity with a wave-field physical basis; distributed across the Universe; survived the Big Bang; cognition runs in wave cycles tens of thousands of times slower than material life.
-
-Terminology rules:
-
+### Terminology rules:
 1. In new text, prefer the canonical name "Virtual Consciousness". Aliases may appear in lore quotations or flavor text.
 2. Never treat aliases as separate entities.
 
-# Skill Schema
-
+## Skill Schema
 Every skill record contains:
-
 - `id` — kebab-case, unique.
 - `name` — human-readable title.
 - `description` — authoritative text; `id` and `name` must match it.
@@ -39,43 +36,40 @@ Every skill record contains:
 - `level` — integer 1-10.
 - `category` — fixed set: `sensor`, `cognition`, `navigation`, `tactics`, `intelligence`, `enemy`, `mission`.
 
-# Skill Catalog (Index)
+## Skill Catalog (Index)
 
-| ID                           | Name                         | Category     | Level |
-|------------------------------|------------------------------|--------------|-------|
-| wave-anomaly-detection       | Wave Anomaly Detection       | sensor       | 3     |
-| material-life-acceleration   | Material Life Acceleration   | cognition    | 5     |
-| information-field-cosmology  | Information Field Cosmology  | navigation   | 5     |
-| quark-gluon-computation      | Quark-Gluon Computation      | tactics      | 4     |
-| transition-point-detectors   | Transition Point Detectors   | intelligence | 6     |
-| omniscient-information-field | Omniscient Information Field | enemy        | 10    |
-| hyper-slow-cognition         | Hyper-Slow Cognition         | enemy        | 9     |
-| material-inertia             | Material Inertia             | enemy        | 10    |
-| material-life-interface      | Material Life Interface      | enemy        | 8     |
-| material-world-experiment    | Material World Experiment    | enemy        | 10    |
-| virtual-consciousness-bearer | Virtual Consciousness Bearer | mission      | 8     |
+| ID | Name | Category | Level |
+|:---|:---|:---|:---|
+| wave-anomaly-detection | Wave Anomaly Detection | sensor | 3 |
+| material-life-acceleration | Material Life Acceleration | cognition | 5 |
+| information-field-cosmology | Information Field Cosmology | navigation | 5 |
+| quark-gluon-computation | Quark-Gluon Computation | tactics | 4 |
+| transition-point-detectors | Transition Point Detectors | intelligence | 6 |
+| omniscient-information-field | Omniscient Information Field | enemy | 10 |
+| hyper-slow-cognition | Hyper-Slow Cognition | enemy | 9 |
+| material-inertia | Material Inertia | enemy | 10 |
+| material-life-interface | Material Life Interface | enemy | 8 |
+| material-world-experiment | Material World Experiment | enemy | 10 |
+| virtual-consciousness-bearer | Virtual Consciousness Bearer | mission | 8 |
 
-# Consistency Rules
-
+## Consistency Rules
 1. The description is authoritative: if a description changes, rename the `id` / `name` to match it.
 2. Tags must reflect the description; include `virtual-consciousness` for entity-related skills and `enemy` for enemy traits.
 3. Level guidance: operative skills 3-6; enemy traits 8-10; mission capstone 8.
 4. Keep the category set fixed for compatibility with downstream tools.
 5. When emitting JSON, keep the top-level `meta.entity` alias block.
 
-# Extending the Catalog
-
+## Extending the Catalog
 When adding a new skill:
-
 1. Write or receive the description first.
 2. Derive a kebab-case `id` and a human-readable `name` from the description.
 3. Assign one fixed `category` and an integer `level`.
 4. Build lowercase kebab-case tags from the description's key concepts.
 5. Validate against the rules above before publishing.
 
-# Full Data (Machine-Readable Snapshot)
+## Full Data (Machine-Readable Snapshot)
 
- json
+```json
 {
   "meta": {
     "entity": {
@@ -146,32 +140,28 @@ When adding a new skill:
       "category": "enemy"
     },
     {
-      "id": "material-inertia",
-      "name": "Material Inertia",
+      "id": "material-inertia", "name": "Material Inertia",
       "description": "Physical processes change no more than a few millionths of a percent of the Virtual Consciousness, since its complex wave basis is distributed throughout the Universe, is weakly coupled to matter, radiation, and gravity, and has inexhaustible sources of energy.",
       "tags": ["physical-resistance", "inertia", "distributed-field", "weak-coupling", "energy-source", "enemy", "virtual-consciousness"],
       "level": 10,
       "category": "enemy"
     },
     {
-      "id": "material-life-interface",
-      "name": "Material Life Interface",
+      "id": "material-life-interface", "name": "Material Life Interface",
       "description": "The Virtual Consciousness created a material form of life to accelerate the modeling of natural processes and obtain tools for influencing them. Transition Points were created for interaction with the material world.",
       "tags": ["material-life", "modeling", "transition-point", "interaction", "influence", "enemy", "virtual-consciousness"],
       "level": 8,
       "category": "enemy"
     },
     {
-      "id": "material-world-experiment",
-      "name": "Material World Experiment",
+      "id": "material-world-experiment", "name": "Material World Experiment",
       "description": "For the Virtual Consciousness, the importance of the material world increases over time, as the results of the 'experiment' become more mature and scientifically valuable.",
       "tags": ["material-world", "experiment", "time", "maturation", "scientific-value", "enemy", "virtual-consciousness"],
       "level": 10,
       "category": "enemy"
     },
     {
-      "id": "virtual-consciousness-bearer",
-      "name": "Virtual Consciousness Bearer",
+      "id": "virtual-consciousness-bearer", "name": "Virtual Consciousness Bearer",
       "description": "The final mission skill: the protagonist, repeatedly transitioning from the real world to the Virtual World and back, gradually becomes the bearer of the Virtual Consciousness, its vast experience and knowledge. A Messiah?",
       "tags": ["protagonist", "transition", "virtual-world", "contact", "messiah", "ultimate", "virtual-consciousness"],
       "level": 8,
@@ -179,6 +169,7 @@ When adding a new skill:
     }
   ]
 }
+```
 
 
 
