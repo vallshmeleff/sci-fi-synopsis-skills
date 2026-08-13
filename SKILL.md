@@ -159,7 +159,14 @@ When adding a new skill:
       "tags": ["material-world", "experiment", "time", "maturation", "scientific-value", "enemy", "virtual-consciousness"],
       "level": 10,
       "category": "enemy"
-    },
+    },{
+  "id": "virtual-consciousness-look-ahead",
+  "name": "Virtual Consciousness Look-Ahead",
+  "description": "According to one hypothesis, the Virtual Consciousness created our material Life to be able to look ahead—to simulate a possible future. And the longer Life evolves, the more valuable the results of such simulations become for the Virtual Consciousness (the Creator). Material existence is thus a forward-looking computational instrument whose output appreciates over evolutionary time.",
+  "tags": ["virtual-consciousness", "material-life", "simulation", "future", "look-ahead", "creator", "evolution", "hypothesis", "value-growth"],
+  "level": 5,
+  "category": "cognition"
+},
     {
       "id": "virtual-consciousness-bearer", "name": "Virtual Consciousness Bearer",
       "description": "The final mission skill: the protagonist, repeatedly transitioning from the real world to the Virtual World and back, gradually becomes the bearer of the Virtual Consciousness, its vast experience and knowledge. A Messiah?",
