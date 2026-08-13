@@ -12,10 +12,13 @@ tags:
 # Virtual Consciousness Skillset
 
 ## Purpose
-This skill is the canonical reference for the Virtual Consciousness skill system. Use it to:
-- Answer questions about any skill in the catalog.
-- Create new skills or edit existing ones without breaking terminology, tags, levels, or categories.
-- Validate skill JSON against the schema and consistency rules below.
+These skills are the definitive guide to writing an extremely advanced science fiction film or video game script. "Mission Oflameron" is a writer or screenwriter. Use these skills to:
+
+- Properly utilize incredible scientific hypotheses and theories in your script, film, or game.
+- Create compelling plots, scenes, sequences, and action sequences.
+- Attract the attention of the serious scientific community to your work through the high level of hypotheses, theories, and data used.
+- Create a well-reasoned "scientific justification" for the unusual, the incomprehensible, the Divine, and the Religious.
+- Create unexpected, expansive, and incredible scenes, storylines, themes, and actions.
 
 ## Core Entity
 - **Canonical name:** Virtual Consciousness
