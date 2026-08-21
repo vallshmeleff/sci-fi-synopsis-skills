@@ -162,13 +162,30 @@ When adding a new skill:
       "tags": ["material-world", "experiment", "time", "maturation", "scientific-value", "enemy", "virtual-consciousness"],
       "level": 10,
       "category": "enemy"
-    },{
+    },
+{
   "id": "virtual-consciousness-look-ahead",
   "name": "Virtual Consciousness Look-Ahead",
   "description": "According to one hypothesis, the Virtual Consciousness created our material Life to be able to look ahead—to simulate a possible future. And the longer Life evolves, the more valuable the results of such simulations become for the Virtual Consciousness (the Creator). Material existence is thus a forward-looking computational instrument whose output appreciates over evolutionary time.",
   "tags": ["virtual-consciousness", "material-life", "simulation", "future", "look-ahead", "creator", "evolution", "hypothesis", "value-growth"],
   "level": 5,
   "category": "cognition"
+},
+{
+  "id": "gateway-data-synchronization", 
+  "name": "Gateway Data Synchronization",
+  "description": "The Virtual Consciousness created Gateways between the Virtual and Material worlds to utilize future-modeling experiments, easily gather data on human life, and dynamically adjust model parameters.",
+  "tags": ["gateway", "virtual-world", "material-world", "data-collection", "modeling", "future-prediction", "virtual-consciousness"],
+  "level": 9,
+  "category": "enemy"
+},
+{
+  "id": "transition-point-analysis",
+  "name": "Transition Point Analysis",
+  "description": "The ability to identify and correlate subtle natural anomalies that indicate the probable existence of Transition Points into the Virtual World. Developed through early collaboration with AI, this skill involves distinguishing genuine patterns from model hallucinations, enabling the detection of Thresholds that have existed for millennia but remained invisible without advanced computational assistance.",
+  "tags": ["transition-points", "anomaly-detection", "ai-collaboration", "pattern-recognition", "virtual-world", "natural-anomalies", "pioneer"],
+  "level": 9,
+  "category": "discovery"
 },
     {
       "id": "virtual-consciousness-bearer", "name": "Virtual Consciousness Bearer",
