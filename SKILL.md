@@ -187,7 +187,41 @@ When adding a new skill:
   "level": 9,
   "category": "discovery"
 },
-    {
+{
+  "id": "gateway-anomaly-detection",
+  "name": "Gateway Anomaly Detection",
+  "description": "Although the Gateways into the Virtual World have existed for tens of thousands of years, only with the development of AI did it become possible to identify and correlate subtle natural anomalies that indicated the probable existence of Gateways to the Virtual World. Jett was accidentally the first to work with AI and noticed some results that had been dismissed as "hallucinations" by the model.",
+  "tags": [
+    "gateways",
+    "anomaly-detection",
+    "ai-correlation",
+    "natural-phenomena",
+    "virtual-world",
+    "signal-processing",
+    "pattern-recognition",
+    "research"
+  ],
+  "level": 9,
+  "category": "research"
+},
+{
+  "id": "cross-cultural-psychiatric-pattern-analysis",
+  "name": "Cross-Cultural Psychiatric Pattern Analysis",
+  "description": "Jett was working on a project to digitize old paper archives from psychiatric clinics and noticed that sometimes patients thousands of miles apart expressed identical thoughts and used the same arguments. "Classical" medicine of the late 20th century didn't compare patient records from different clinics, much less from different countries. Only with the development of AI was it possible to perform a comprehensive data analysis.",
+  "tags": [
+    "psychiatric-analysis",
+    "cross-cultural",
+    "pattern-matching",
+    "ai-data-analysis",
+    "historical-records",
+    "psychological-phenomena",
+    "digital-archiving",
+    "research"
+  ],
+  "level": 7,
+  "category": "research"
+},
+{
       "id": "virtual-consciousness-bearer", "name": "Virtual Consciousness Bearer",
       "description": "The final mission skill: the protagonist, repeatedly transitioning from the real world to the Virtual World and back, gradually becomes the bearer of the Virtual Consciousness, its vast experience and knowledge. A Messiah?",
       "tags": ["protagonist", "transition", "virtual-world", "contact", "messiah", "ultimate", "virtual-consciousness"],
