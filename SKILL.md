@@ -118,6 +118,22 @@ When adding a new skill:
       "level": 4,
       "category": "tactics"
     },
+  {
+    "id": "g-mind-anomaly-filtering",
+    "name": "G-Mind Anomaly Filtering",
+    "description": "Using the government's cutting-edge G-Mind AI trained on custom behavioral examples, this protocol compiles data on clinic patients whose creative ideas defy classical psychiatry, filtering out standard cognitive baselines to locate unique anomalies.",
+    "tags": ["g-mind", "ai", "anomaly-filtering", "psychiatry", "digital-records", "creative-thinking", "patient-analysis"],
+    "level": 3,
+    "category": "intelligence"
+  },
+  {
+    "id": "centennial-dna-tracking",
+    "name": "Centennial DNA Tracking",
+    "description": "Analysis of medical registry anomalies reveals individuals admitted to clinics across a century and a half. Cross-referencing historical and modern blood samples via DNA research confirms biological identity despite a 110-year gap.",
+    "tags": ["dna-research", "medical-records", "registry-error", "blood-samples", "chronological-tracking", "anomaly", "identity-verification"],
+    "level": 5,
+    "category": "tactics"
+  },
     {
       "id": "transition-point-detectors",
       "name": "Transition Point Detectors",
