@@ -221,6 +221,30 @@ When adding a new skill:
   "category": "research"
 },
 {
+    "id": "jett-expedition-role",
+    "name": "Jett Expedition Role",
+    "description": "Jett is the main character, an engineer, scientist, and analyst, included in the expedition to Oflameron, a planet promising for exploration.",
+    "tags": ["jett", "main-character", "engineer", "scientist", "analyst", "expedition", "oflameron", "exploration"],
+    "level": 3,
+    "category": "navigation"
+  },
+  {
+    "id": "oflameron-mission-leadership",
+    "name": "Oflameron Mission Leadership",
+    "description": "Central Command organized several missions to Oflameron. However, only two landings were successful - those in which Jett participated. Therefore, Jett was chosen to lead the third expedition.",
+    "tags": ["central-command", "missions", "oflameron", "landings", "jett", "leadership", "third-expedition"],
+    "level": 4,
+    "category": "tactics"
+  },
+  {
+    "id": "g-mind-ai-export",
+    "name": "G-Mind AI Export",
+    "description": "Having discovered Command's interest in the research results, Jett organized the 'export' of the G-Mind AI's self-awareness. Central Command considered this an AI 'escape' and began a comprehensive analysis of Jett's activities. A suspicion arose that Jett had found information about the location of one of the Transition Points and its parameters.",
+    "tags": ["jett", "g-mind", "artificial-intelligence", "self-awareness", "escape", "central-command", "investigation", "transition-point"],
+    "level": 5,
+    "category": "tactics"
+  },
+{
   "id": "cross-cultural-psychiatric-pattern-analysis",
   "name": "Cross-Cultural Psychiatric Pattern Analysis",
   "description": "Jett was working on a project to digitize old paper archives from psychiatric clinics and noticed that sometimes patients thousands of miles apart expressed identical thoughts and used the same arguments. "Classical" medicine of the late 20th century didn't compare patient records from different clinics, much less from different countries. Only with the development of AI was it possible to perform a comprehensive data analysis.",
