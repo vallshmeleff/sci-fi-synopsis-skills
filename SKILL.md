@@ -127,6 +127,22 @@ When adding a new skill:
     "category": "intelligence"
   },
   {
+    "id": "wave-consciousness-interpretation",
+    "name": "Wave Consciousness Interpretation",
+    "description": "Utilizing advanced AI models to decode the 'Wave Consciousness' hypothesis presented at ICLR 2025. This protocol analyzes historical datasets to bridge the gap between ancient religious structures and modern material science, turning a brief scientific sensation into actionable insights.",
+    "tags": ["wave-consciousness", "iclr-2025", "religion", "material-world", "hypothesis", "ai-interpretation"],
+    "level": 3,
+    "category": "intelligence"
+  },
+  {
+    "id": "faith-based-data-transmission",
+    "name": "Faith-Based Data Transmission",
+    "description": "A specialized methodology modeled after ancient self-organizing mechanisms of Belief and Faith. It treats cultural and religious rituals as hyper-reliable, long-term data preservation vehicles that resist the physical decay of traditional media, fully decoded only through cutting-edge AI analysis.",
+    "tags": ["faith-mechanism", "data-transmission", "information-preservation", "statistical-analysis", "ai-decoding", "self-organization"],
+    "level": 4,
+    "category": "tactics"
+  },
+  {
     "id": "centennial-dna-tracking",
     "name": "Centennial DNA Tracking",
     "description": "Analysis of medical registry anomalies reveals individuals admitted to clinics across a century and a half. Cross-referencing historical and modern blood samples via DNA research confirms biological identity despite a 110-year gap.",
