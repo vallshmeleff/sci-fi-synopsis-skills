@@ -5,6 +5,7 @@ version: 1.0.1
 tags:
   - lore
   - worldbuilding
+  - synopsis
   - virtual-consciousness
   - skills
 ---
