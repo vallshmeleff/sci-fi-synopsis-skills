@@ -1,7 +1,7 @@
 ---
 name: sci-fi-synopsis-mission-oflameron-skillset
 description: Canonical lore and consistency reference for the Virtual Consciousness skill system in 'Mission Oflameron'. Use when creating, editing, validating, or querying its skill catalog.
-version: 1.0.0
+version: 1.0.1
 tags:
   - lore
   - worldbuilding
