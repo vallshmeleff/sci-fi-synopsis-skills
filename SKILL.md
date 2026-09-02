@@ -129,7 +129,7 @@ When adding a new skill:
   {
     "id": "wave-consciousness-interpretation",
     "name": "Wave Consciousness Interpretation",
-    "description": "Utilizing advanced AI models to decode the 'Wave Consciousness' hypothesis presented at ICLR 2025. This protocol analyzes historical datasets to bridge the gap between ancient religious structures and modern material science, turning a brief scientific sensation into actionable insights.",
+    "description": "Using advanced artificial intelligence models to decipher the "Wave Consciousness" hypothesis presented at ICLR 2025. This protocol analyzes historical religious datasets to bridge the gap between ancient religious beliefs and modern materials science, transforming short-term scientific discoveries into practical engineering solutions.",
     "tags": ["wave-consciousness", "iclr-2025", "religion", "material-world", "hypothesis", "ai-interpretation"],
     "level": 3,
     "category": "intelligence"
@@ -137,7 +137,7 @@ When adding a new skill:
   {
     "id": "faith-based-data-transmission",
     "name": "Faith-Based Data Transmission",
-    "description": "A specialized methodology modeled after ancient self-organizing mechanisms of Belief and Faith. It treats cultural and religious rituals as hyper-reliable, long-term data preservation vehicles that resist the physical decay of traditional media, fully decoded only through cutting-edge AI analysis.",
+    "description": "A specialized method for studying ancient self-organizing mechanisms of faith, traditions, and beliefs. It examines cultural and religious rituals (religion) as a highly reliable means of long-term data preservation across generations, resistant to the physical destruction of traditional storage media, and fully decipherable only through analysis using advanced artificial intelligence methods.",
     "tags": ["faith-mechanism", "data-transmission", "information-preservation", "statistical-analysis", "ai-decoding", "self-organization"],
     "level": 4,
     "category": "tactics"
@@ -145,7 +145,7 @@ When adding a new skill:
   {
     "id": "centennial-dna-tracking",
     "name": "Centennial DNA Tracking",
-    "description": "Analysis of medical registry anomalies reveals individuals admitted to clinics across a century and a half. Cross-referencing historical and modern blood samples via DNA research confirms biological identity despite a 110-year gap.",
+    "description": "An analysis of anomalies in old medical records has identified individuals hospitalized in clinics spanning a century and a half. Cross-referencing historical and modern blood samples through DNA testing confirms their biological identity, despite their 110-year age. These individuals may be from the Virtual Reality.",
     "tags": ["dna-research", "medical-records", "registry-error", "blood-samples", "chronological-tracking", "anomaly", "identity-verification"],
     "level": 5,
     "category": "tactics"
@@ -153,7 +153,7 @@ When adding a new skill:
     {
       "id": "transition-point-detectors",
       "name": "Transition Point Detectors",
-      "description": "Phase-holonomy anomalies served as the basis for the protagonist Jett to create Transition Point detectors — gateways to the Virtual Wave State and back.",
+      "description": "An analysis of phase holonomy anomalies served as the basis for the creation of the Transition Point detectors by the protagonist of 'Mission Oflameron', Jett - gateways to the virtual wave state and back.",
       "tags": ["phase-holonomy", "topology", "transition-point", "detector", "gateway", "virtual-wave-state", "protagonist", "virtual-consciousness"],
       "level": 6,
       "category": "intelligence"
