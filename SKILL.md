@@ -134,6 +134,22 @@ When adding a new skill:
     "level": 3,
     "category": "intelligence"
   },
+{
+    "id": "e-point-vacuum-disruption",
+    "name": "E-Point Vacuum Disruption",
+    "description": "Tests of manned spacecraft using vacuum disruption (vacuum breakdown, Schwinger effect) to briefly exceed the speed of light have yielded data indicating a sharp drop in propulsion efficiency at relativistic speeds, where slow acceleration risks depleting the energy needed to maintain the vacuum disruption.",
+    "tags": ["exa-point", "e-point", "vacuum-disruption", "light-speed", "relativistic-speeds", "propulsion-efficiency", "flight-test"],
+    "level": 4,
+    "category": "tactics"
+  },
+  {
+    "id": "trajectory-vacuum-freezing",
+    "name": "Trajectory Vacuum Freezing",
+    "description": "Deploying a specialized laser system to freeze the vacuum ahead of a vehicle by removing energy from its trajectory. Developed under Central Command, this advanced propulsion stabilization technique integrates the G-Mind AI with E-Point experimental prototypes (relativistic aircraft).",
+    "tags": ["laser-system", "vacuum-freezing", "energy-removal", "g-mind", "ai", "e-point", "prototype-design"],
+    "level": 3,
+    "category": "intelligence"
+  },
   {
     "id": "faith-based-data-transmission",
     "name": "Faith-Based Data Transmission",
