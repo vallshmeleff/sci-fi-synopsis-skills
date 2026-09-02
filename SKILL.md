@@ -121,7 +121,7 @@ When adding a new skill:
   {
     "id": "g-mind-anomaly-filtering",
     "name": "G-Mind Anomaly Filtering",
-    "description": "Using the government's cutting-edge G-Mind AI trained on custom behavioral examples, this protocol compiles data on clinic patients whose creative ideas defy classical psychiatry, filtering out standard cognitive baselines to locate unique anomalies.",
+    "description": "Using the government's advanced artificial intelligence system G-Mind, trained on specially designed behavioral examples, the protagonist of a film or game collects data on psychiatric patients whose creative ideas contradict classical psychiatry, filtering out standard cognitive measures to identify promising anomalies (ideas).",
     "tags": ["g-mind", "ai", "anomaly-filtering", "psychiatry", "digital-records", "creative-thinking", "patient-analysis"],
     "level": 3,
     "category": "intelligence"
